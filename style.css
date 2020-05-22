@@ -1,0 +1,250 @@
+.body {
+    margin: 0;
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Comic Sans MS", serif;
+}
+
+/* ---------------------------------- start header ---------------------------------- */
+.header {
+    background-color: #000000c4;
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid black;
+    z-index: 1;
+    display: inline;
+}
+
+.header__all-menu-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    min-width: 910px;
+}
+
+.header__menu-item {
+    list-style: none;
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.header__link {
+    color: aliceblue;
+    text-decoration: aliceblue;
+    font-size: 15px;
+    padding: 0.5rem;
+}
+
+
+/* ---------------------------------- and header ---------------------------------- */
+
+/* ---------------------------------- start main ---------------------------------- */
+
+.main {
+    padding: 0 15%;
+    margin: 0 0 80px;
+}
+
+.main_background {
+    background-color: rgba(240, 248, 255, 0.86);
+    padding: 163px 30px 15px;
+    border: 1px solid black;
+    box-shadow: 22px 11px 43px 17px rgba(0,0,0,0.39);
+    min-width: 910px;
+}
+
+.info_text-size, .about-me__text, .contacts-text, .stady-work__text, .skills__item, .qualities__item, .project__text {
+    font-size: 20px;
+}
+
+.about-me, .contacts, .stady-work, .skills, .qualities, .project {
+    padding: 50px 0 0;
+    position: relative;
+    border-radius: 12px;
+}
+
+.about-me, .stady-work, .skills, .project {
+    width: 800px;
+    height: 250px;
+}
+
+.qualities {
+    width: 800px;
+    height: 300px;
+}
+
+.contacts {
+    width: 800px;
+    height: 150px;
+}
+
+.about-me_white, .contacts_white, .stady-work_white, .skills_white, .qualities_white, .project_white {
+    background-color: white;
+    box-shadow: 22px 11px 43px 17px rgba(0,0,0,0.39);
+    border-radius: 12px;
+    position: absolute;
+    left: 50px;
+    padding: 0 15px;
+}
+
+.about-me_white, .stady-work_white, .skills_white, .project_white {
+    width: 800px;
+    height: 320px;
+}
+
+.qualities_white {
+    width: 800px;
+    height: 350px;
+}
+
+.contacts_white {
+    width: 800px;
+    height: 200px;
+}
+
+.stady-work, .skills, .qualities, .project, .contacts {
+    margin: 150px auto 120px;
+}
+
+/* ---------------------------------- start info ---------------------------------- */
+
+.info {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.info__name {
+    font-size: 45px;
+    margin: 0;
+}
+
+.info_name-border {
+    border-bottom: 3px solid #747474;
+    width: 75%;
+    margin: 50px auto 0;
+    color: #1d1d1d;
+    font-size: 100px;
+    text-shadow: 0px 1px 1px #919191, 0px 2px 1px #5d5563, 0px 3px 1px #6d6d6d, 0px 4px 1px #5e5e5e, 0px 5px 1px #cbcbcb, 0px 5px 1px #cbcbcb, 0px 5px 1px #cbcbcb, 0px 5px 1px #cbcbcb, 0px 5px 1px #cbcbcb, 0px 8px 5px rgba(0,0,0,.6);
+}
+
+
+/* ---------------------------------- and info ---------------------------------- */
+
+
+/* ---------------------------------- start about-me ---------------------------------- */
+
+.about-me {
+    background-image: -webkit-linear-gradient(right, #FC7864, #fdb86b);
+    margin: 50px auto 60px;
+}
+
+.about-me__my-foto {
+    transform: rotate(369deg);
+    border: 1px solid black;
+    float: right;
+}
+
+/* ---------------------------------- and about-me ---------------------------------- */
+
+/* ---------------------------------- start contacts ---------------------------------- */
+
+.contacts {
+    background-image: -webkit-linear-gradient(right, #8EC5FC, #E0C3FC);
+}
+
+.contacts__imaga {
+    width: 70px;
+}
+
+.contacts__all {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------------------------------- and contacts ---------------------------------- */
+
+/* ---------------------------------- start stady-work ---------------------------------- */
+
+.stady-work {
+    background-image: -webkit-linear-gradient(right, #74EBD5, #f7e8ad);
+}
+
+.stady-work__text {
+    margin: 0;
+}
+
+/* ---------------------------------- and stady-work ---------------------------------- */
+
+/* ---------------------------------- start skills ---------------------------------- */
+
+.skills {
+    background-image: -webkit-linear-gradient(right, #FFD3A5, #FD6585);
+}
+
+/* ---------------------------------- and skills ---------------------------------- */
+
+/* ---------------------------------- start qualities ---------------------------------- */
+
+.qualities {
+    background-image: -webkit-linear-gradient(right, #d4ff65, #fd654b);
+}
+
+/* ---------------------------------- and qualities ---------------------------------- */
+
+/* ---------------------------------- start project ---------------------------------- */
+
+.project {
+    background-image: -webkit-linear-gradient(right, #ff79dd, #20befd);
+}
+
+/* ---------------------------------- and project ---------------------------------- */
+
+
+
+
+
+
+
+/* ---------------------------------- and main ---------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
